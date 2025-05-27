@@ -1,0 +1,82 @@
+*
+*
+G04 PADS VX.2.11 Build Number: 20124196 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "SummerCamp_NightLight.p"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD013R,0.06X0.05*%
+%ADD016C,0.01*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name SummerCamp_NightLight.p - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name SummerCamp_NightLight.p - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name SummerCamp_NightLight.p - circuitry*
+%LPD*%
+*
+G54D10*
+G54D13*
+G01X343000Y150000D03*
+X352000D03*
+G54D16*
+X100500Y241500D02*
+X573500D01*
+Y100500*
+X100500*
+Y241500*
+X0Y0D02*
+M02*
