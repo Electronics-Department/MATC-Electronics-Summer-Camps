@@ -1,0 +1,106 @@
+*
+*
+G04 PADS VX.2.13 Build Number: 22185787 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "SummerCamp_TriangleLigh"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD011C,0.07*%
+%ADD012C,0.06*%
+%ADD016C,0.01*%
+%ADD046ANN,0.09843X0.09055*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name SummerCamp_TriangleLigh - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name SummerCamp_TriangleLigh - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name SummerCamp_TriangleLigh - circuitry*
+%LPD*%
+*
+G54D10*
+G54D11*
+G01X162902Y166287D03*
+Y156287D03*
+Y146287D03*
+Y136287D03*
+Y126287D03*
+X212902D03*
+Y136287D03*
+Y146287D03*
+Y156287D03*
+Y166287D03*
+X226484Y125697D03*
+G54D12*
+X145500Y106217D03*
+Y116217D03*
+Y126217D03*
+Y136217D03*
+Y146217D03*
+Y156217D03*
+Y166217D03*
+Y176217D03*
+G54D16*
+X100500Y183177D02*
+X250106D01*
+Y100500*
+X100500*
+Y183177*
+G54D46*
+X110500Y171248D03*
+X242232Y111209D03*
+X110500D03*
+X0Y0D02*
+M02*
